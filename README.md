@@ -1,2 +1,4 @@
-# Alkan
-A schedule webapp
+scheda.js
+=========
+
+Draw a weeklong schedule using HTML5 canvas.
