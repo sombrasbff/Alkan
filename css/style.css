@@ -148,10 +148,19 @@ button{
     border: 0;
     padding: 0 20px;
 }
-#add_button:hover, #download_button:hover{
+#submit_button{
+    height: 31px;
+    background: #3A6235;
+    border: 0;
+    padding: 0 20px;
+}
+#add_button:hover, #download_button:hover, #submit_button:hover{
     background: #6BBB62;
     color: #FFF;
 }
+
+
+
 #room{
     margin: 0;
 }

@@ -20,25 +20,16 @@
         <section id="app">
             <section id="tabs">
                 <div class="tab">
-                    <div class="tab-icon">
-                        <span class="helper"></span>
-                    </div>
-                    <div class="tab-title">Home</div>
-                    <br class="clearfix" />
-                </div>
-                <div class="tab" id="manage_schedule_tab">
-                    <div class="tab-icon">
-                        <span class="helper"></span>
-                        <img src="img/manage-sched.png" alt="Manage Sched" width="32" height="32"/>
-                    </div>
-                    <div class="tab-title">
-                        Manage Schedule
-                        <div class="tab-toggler" target="add_courses_content">+</div>
+                  
+                 
+
                     </div>
                     <div class="tab-content visible" id="add_courses_content">
                         Add Courses
                         <br />
                         <input type="text" placeholder="Course Name" id="course"/>
+                        <br />
+                        <br />
                         <br />
                         <input type="text" placeholder="Section" id="section"/>
                         <button class="day">M</button>
@@ -48,55 +39,21 @@
                         <button class="day">F</button>
                         <button class="day">S</button>
                         <br />
-                        from
-                        <select id="from">
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                        <select id="from2">
-                            <option value=":00">00</option>
-                            <option value=":15">15</option>
-                            <option value=":30">30</option>
-                            <option value=":45">45</option>
-                        </select>
-                        to
-                        <select id="to">
-                            <option value="7">7</option>
-                            <option value="8" selected="selected">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                        </select>
-                        <select id="to2">
-                            <option value=":00">00</option>
-                            <option value=":15">15</option>
-                            <option value=":30">30</option>
-                            <option value=":45">45</option>
-                        </select>
-                        <br />
+   <br />
+    <br />
+         
+
                         Course Background Color &nbsp;&nbsp;&nbsp;<input class="color {pickerPosition:'left'}" type="text" id="schedBgColor"/>
+                        <br />
+                        <br />
                         <input type="text" placeholder="Room" id="room" />
                         <button id="add_button">ADD</button>
+                         <br />
+                          <br />
                         Course List
                         <ul id="course_list"></ul>
+                        <br />
+                         <button id="submit_button">Submit</button>
                     </div>
                     <div class="clearfix"></div>
                     </div>
